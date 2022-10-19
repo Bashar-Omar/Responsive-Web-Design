@@ -1,0 +1,26 @@
+@media (max-width: 767px) {  /* Mobile & Tablet Rules */
+    .visible-xs {
+        display: block !important;
+    }
+    .res-p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) { /* Small Screen Rules */
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) { /* Medium Screen Rules */
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) { /* Medium Screen Rules */
+    .container {
+        width: 1170px;
+    }
+}

@@ -1,0 +1,62 @@
+.container {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.visible-xs {
+    display: none;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.h1 {
+    font-size: 2em;
+}
+
+.h2 {
+    font-size: 1.5em;
+}
+
+.responsive-image {
+    width: 100% !important;
+    
+}
+
+.unstyle {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-thumbali {
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
