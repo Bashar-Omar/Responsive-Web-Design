@@ -37,8 +37,37 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.header .overlay .creative {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 120px;
+    color: #a96700;
+    margin: 0;
+
+}
+
 .header .overlay h1 {
-    font-size: 60px;
+    margin: 0;
+    color: white;
+    margin-top: -60px;
+    font-size: 70px;
+}
+
+.header .overlay p {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.header .overlay a {
+    color: #a96700;
+    text-decoration: none;
+    background: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.header .overlay a:hover {
+    background: rgb(214, 214, 214);
 }
 
 .header .overlay .plan {
